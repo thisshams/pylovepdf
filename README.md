@@ -6,6 +6,12 @@ ilovepdf.com python API library
 
 This library allow to manipulate pdf using the API of http://www.ilovepdf.com. See the Tools section to know what you can do.
 
+## Fixed features that were not working
+
+## Install using pip
+
+pip install pylovepdf-flavor
+
 ### Prerequisites
 
 - [developer account] (https://developer.ilovepdf.com) to get a public key to use the API.
