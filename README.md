@@ -10,7 +10,15 @@ This library allow to manipulate pdf using the API of http://www.ilovepdf.com. S
 
 ## Install using pip
 
+```python
 pip install pylovepdf-flavor
+```
+
+## Using
+
+```python
+from pylovepdf_flavor.ilovepdf import ILovePdf
+```
 
 ### Prerequisites
 
@@ -45,7 +53,7 @@ Currently the following tools are available:
 ## Example Usage (compress tool)
 
 ```python
-from pylovepdf.ilovepdf import ILovePdf
+from pylovepdf_flavor.ilovepdf import ILovePdf
 
 ilovepdf = ILovePdf('public_key', verify_ssl=True)
 task = ilovepdf.new_task('compress')
@@ -61,7 +69,7 @@ task.delete_current_task()
 A tool can be created directly:
 
 ```python
-from pylovepdf.tools.compress import Compress
+from pylovepdf_flavor.tools.compress import Compress
 
 t = Compress('public_key', verify_ssl=True)
 t.add_file('pdf_file')
